@@ -13,19 +13,4 @@ function Header() {
   );
 }
 
-const styles = StyleSheet.create({
-  "App-header": {
-    fontSize: "1.4rem",
-    color: "#e0354b",
-    display: "flex",
-    alignItems: "center",
-    borderBottom: "3px solid #e0354b",
-  },
-
-  img: {
-    width: "200px",
-    height: "200px",
-  },
-});
-
 export default Header;

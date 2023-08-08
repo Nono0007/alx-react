@@ -22,33 +22,6 @@ function CourseList({ listCourses }) {
   );
 }
 
-const styles = StyleSheet.create({
-  table: {
-    marginTop: "2em",
-    width: "100%",
-    border: "1px solid #ddd",
-    fontSize: "1.2rem",
-    marginBottom: "15em",
-    marginLeft: "auto",
-    marginRight: "auto",
-  },
-
-  th: {
-    borderBottom: "1px solid #ddd",
-    width: "80%",
-  },
-
-  td: {
-    width: "80%",
-  },
-
-  tr: {
-    "nth-child(2)": {
-      textAlign: "left",
-    },
-  },
-});
-
 CourseList.propTypes = {
   listCourses: PropTypes.arrayOf(CourseShape),
 };
